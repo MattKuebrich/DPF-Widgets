@@ -175,9 +175,9 @@ namespace ImGuiKnobs {
                 // Center title
                 ImGui::SetCursorPosX(ImGui::GetCursorPosX() + (width - title_size[0]) * 0.5f);
 
-                ImGui::PushStyleColor(ImGuiCol_Text, ImVec4(0.85f, 0.85f, 0.85f, 0.85f));
+                //ImGui::PushStyleColor(ImGuiCol_Text, ImVec4(0.85f, 0.85f, 0.85f, 0.85f));
                 ImGui::Text("%s", label);
-                ImGui::PopStyleColor();
+                //ImGui::PopStyleColor();
             }
 
             // Draw knob
